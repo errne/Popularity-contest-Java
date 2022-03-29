@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class Contest {
 
 	public static final String[] NAMES = { "Dog", "Cat", "Beetle", "Mouse", "Rabbit", "Fox", "Crow", "Pig", "Horse",
-			"Penguin", "Beaver", "Dragon", "Tiger", "Bear", "Lion", "Fish", "Shark", "Octapus", "Bull", "Yak", "Sheep",
+			"Penguin", "Beaver", "Dragon", "Tiger", "Bear", "Lion", "Fish", "Shark", "Octopus", "Bull", "Yak", "Sheep",
 			"Ant" };
 	private static final String[] PRIZE = { "1000 dollars", "Chicken dinner", "Dream Island", "10 delicious pizzas",
 			"Diamond claws", "Whale bone", "Golden Toilet"};
