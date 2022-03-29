@@ -3,10 +3,10 @@ package contest;
 public class Contestants {
 	private String name;
 	private int votes;
-	private int winToken = 0;
-	private int revToken = 0;
-	private int immToken = 0;
-	private int goldToken = 0;
+	private int winToken;
+	private int revToken;
+	private int immToken;
+	private int goldToken;
 
 	public Contestants(String name) {
 		this.name = name;
@@ -30,28 +30,16 @@ public class Contestants {
 		return this.name;
 	}
 	public boolean winToken(){
-		if(winToken > 0){
-		return true;
-		}
-		return false;
+		return winToken > 0;
 	}
 	public boolean immToken(){
-		if(immToken>0){
-		return true;
-		}
-		return false;
+		return immToken > 0;
 	}
 	public boolean revToken(){
-		if(revToken>0){
-		return true;
-		}
-		return false;
+		return revToken > 0;
 	}
 	public boolean goldToken(){
-		if(goldToken>0){
-		return true;
-		}
-		return false;
+		return goldToken > 0;
 	}
 	public void giveWToken(){
 		this.winToken++;
